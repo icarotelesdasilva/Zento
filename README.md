@@ -6,7 +6,7 @@ programming language still in testing phases, handmade.
 
 ==== Requirements ====
 
-Have gcc installed on your machine.
+Have GCC installed on your machine—preferably Linux (optional).
 
 
 
