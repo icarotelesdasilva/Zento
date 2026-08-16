@@ -1,5 +1,5 @@
 ```
-==== Beta Programming Language ====
+==== Zento ====
 
 programming language still in testing phases, handmade.
 
