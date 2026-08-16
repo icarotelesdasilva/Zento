@@ -1,0 +1,27 @@
+name: Zento CI
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clonar Repositório
+      uses: actions/checkout@v4
+
+    - name: Instalar GCC (caso necessário)
+      run: sudo apt-get update && sudo apt-get install -y gcc
+
+    - name: Compilar a Zento
+      run: gcc main.c lexer.c parser.c -o zento
+
+    - name: Testar Execução
+      run: |
+        # Dá permissão de execução (se precisar) e testa rodando um arquivo de exemplo
+        # Substitua "arquivo.teste" pelo nome real do arquivo de teste do seu projeto
+        ./zento
