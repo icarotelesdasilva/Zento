@@ -19,6 +19,6 @@ gcc main.c lexer.c parser.c -o compilator
 
 === License ===
 
-This project is protected by GNU General Public License v3.0, see [LICENSE](/LICENSE) for more details.
+This project is protected by GNU General Public License v3.0, see The file LICENSE for more details.
 
 ```
