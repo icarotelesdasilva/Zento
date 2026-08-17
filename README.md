@@ -1,12 +1,12 @@
 ```
-==== Beta Programming Language ====
+==== Zento ====
 
 programming language still in testing phases, handmade.
 
 
 ==== Requirements ====
 
-Have gcc installed on your machine.
+Have GCC installed on your machine—preferably Linux (optional).
 
 
 
@@ -19,6 +19,6 @@ gcc main.c lexer.c parser.c -o compilator
 
 === License ===
 
-This project is protected by GNU V3, see [LICENSE](LICENSE) for more details.
+This project is protected by GNU General Public License v3.0, see The file LICENSE for more details.
 
 ```

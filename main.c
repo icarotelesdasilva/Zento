@@ -12,6 +12,8 @@ if (arquivo == NULL) {
 
 
 	printf("Arquivo não encontrado.");
+    
+    return 1;
 }
 
 
