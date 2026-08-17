@@ -7,7 +7,7 @@ void processar_token(Token token) {
 
 	switch (token.tipo) {
         case TOKEN_IMPRIMIR:
-            printf("Comando traduzido -> Imprimindo: %s\n", token.valor);
+            printf("%s\n", token.valor);
             break;
             
         case TOKEN_LER:

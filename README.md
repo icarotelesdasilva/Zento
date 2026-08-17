@@ -1,5 +1,6 @@
 ```
 ==== Zento ====
+==== Beta Programming Language ====
 
 programming language still in testing phases, handmade.
 
@@ -7,7 +8,6 @@ programming language still in testing phases, handmade.
 ==== Requirements ====
 
 Have GCC installed on your machine—preferably Linux (optional).
-
 
 
 === How to compile ===
