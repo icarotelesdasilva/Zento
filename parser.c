@@ -7,12 +7,13 @@ void processar_token(Token token) {
 
 	switch (token.tipo) {
         case TOKEN_IMPRIMIR:
-            printf("%s\n", token.valor);
+            printf("Gerando código C -> printf(\"%s\\n\");\n", token.valor);
             break;
             
         case TOKEN_LER:
+            printf("%s", token.valor);
             break;
-            
+
         case TOKEN_DESCONHECIDO:
         default:
             printf("Erro: Comando desconhecido ou inválido.\n");
