@@ -1,3 +1,4 @@
 
-*.teste text diff=python
+*.teste linguist-language=LinguagemSimilar
+
 
