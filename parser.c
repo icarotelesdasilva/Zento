@@ -7,7 +7,7 @@ void processar_token(Token token) {
 
 	switch (token.tipo) {
         case TOKEN_IMPRIMIR:
-            printf("Gerando código C -> printf(\"%s\\n\");\n", token.valor);
+            printf("%s", token.valor);
             break;
             
         case TOKEN_LER:
